@@ -39,8 +39,11 @@ public class GestorParcsAtraccionsException extends Exception {
         }
     }
 
+    @Override
     public String getMessage() {
+        System.out.println("Missatge sobreescrit");
+        System.out.println(missatge + " " + codiCausa);
         
-        
+        return codiCausa;
     }
 }

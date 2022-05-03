@@ -17,8 +17,8 @@ public class Parc implements Installacio{
 
     private String nom;
     private String adreca;
-    private Installacio[] installacions = new Installacio[300];
-    private int pInstallacions = 0; //Primera posició buida de l'array d'instal.lacions
+    private ArrayList<installacions> = new ArrayList<>();
+    
 
     /*
      TODO CONSTRUCTOR
